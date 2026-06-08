@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Shield Border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,20 C64,20 74,24 82,30 C82,55 72,75 54,88 C36,75 26,55 26,30 C34,24 44,20 54,20 Z" />
+        
+    <!-- Ethereum Inner diamond -->
+    <path
+        android:fillColor="#627EEA"
+        android:pathData="M54,32 L39,52 L54,61 L69,52 Z" />
+    <path
+        android:fillColor="#8EA4F4"
+        android:pathData="M54,32 L54,61 L69,52 Z" />
+    <path
+        android:fillColor="#4C63B7"
+        android:pathData="M54,61 L39,52 L54,76 Z" />
+    <path
+        android:fillColor="#627EEA"
+        android:pathData="M54,61 L54,76 L69,52 Z" />
+
+    <!-- Chain Ring 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M35,62 A 8,8 0 1,1 47,70" />
+    
+    <!-- Chain Ring 2 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E676"
+        android:strokeWidth="2"
+        android:pathData="M73,62 A 8,8 0 1,0 61,70" />
+</vector>

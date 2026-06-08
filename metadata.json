@@ -1,0 +1,6 @@
+{
+  "name": "Web3 Chat",
+  "description": "A decentralized, end-to-end encrypted messaging application built with wallet authentication and client-side cryptography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
